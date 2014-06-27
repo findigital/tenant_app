@@ -1,4 +1,5 @@
 ActiveAdmin.register ServiceRequest do
+  permit_params :problem, :description
 
   
   # See permitted parameters documentation:
